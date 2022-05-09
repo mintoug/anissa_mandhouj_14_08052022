@@ -1,3 +1,3 @@
 export  const Label = ({ children }) => {
-    return <label for={children}>{children}</label>;
+    return <label htmlFor={children}>{children}</label>;
   };

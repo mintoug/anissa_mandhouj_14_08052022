@@ -7,7 +7,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import { EmployeeProvider } from './components/employeeContext';
+import { EmployeeProvider } from './context/employeeContext';
 
 
 

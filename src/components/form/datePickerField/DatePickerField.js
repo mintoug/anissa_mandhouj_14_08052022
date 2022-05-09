@@ -14,6 +14,7 @@ export default function BasicDatePicker(props) {
          id={props.id}
          name={props.name}
         onChange={props.onChange}
+        placeholder={props.placeholder}
          ></input>
     </div>
   );

@@ -3,7 +3,7 @@ import { getComparator } from '../sortTable/SortTable';
 import {TableHeader} from '../tableHeader/TableHeader';
 import  SearchBar  from '../searchField/SearchField'
 
-import { EmployeeContext } from '../employeeContext';
+import { EmployeeContext } from '../../context/employeeContext';
 
 
 //material ui

@@ -13,12 +13,13 @@ code {
     monospace;
 }
 input{
-  background-color: rgba(212, 212, 248, 0.20);
+  background-color: rgba(212, 212, 248, 0.1);
   border-radius: 5px;
   margin-left: 10px;
   border: 1px solid rgb(155, 155, 229);
   outline: none;
   height: 30px;
+  min-width: 100%;
 }
 label{
   font-style: normal;
@@ -32,12 +33,13 @@ h2{
 }
 option, select{
   outline: none;
-  background: rgba(212, 212, 248, 0.20);
+  background: rgba(212, 212, 248, 0.1);
   border: 1px solid rgb(155, 155, 229);
   
 }
 select{
   height: 30px;
   border-radius: 5px 5px 0 0;
+  min-width: 100%;
 
 }

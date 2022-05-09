@@ -5,7 +5,7 @@ import {departments} from '../../assets/data/departments'
 import  BasicDatePicker from '../form/datePickerField/DatePickerField';
 import SelectField from '../form/selectFieled/SelectFieled';
 import './EmployeeForm.css';
-import { EmployeeContext } from '../employeeContext';
+import { EmployeeContext } from '../../context/employeeContext';
 
 
 export const EmployeeForm = modalProps => {
@@ -130,7 +130,7 @@ return (
               setDepartment(e.target.value)}
           />
           <BasicDatePicker
-            label='startDate'
+            label='start Date'
             setElement={setstartdate}
             type ="date"
             placeholder='dd/mm/yyyy'

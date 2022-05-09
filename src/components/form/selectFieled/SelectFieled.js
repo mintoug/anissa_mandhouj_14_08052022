@@ -9,12 +9,12 @@ import { Label } from "../Label/Label";
 	};
 
 	return (
-		<form className="form input-wrapper">
+		<div className="form input-wrapper">
 			<Label >{label}</Label>
 			<select  name={name}  onChange={onChange}>
 				{createOptionsState()}
 			</select>
-		</form>
+		</div>
 	);
 }
 
