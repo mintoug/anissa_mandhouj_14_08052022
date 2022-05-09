@@ -1,6 +1,6 @@
 import { InputField } from '../form/inputField/InputField';
 import search from '../../assets/images/lens.svg';
-
+import './SearchField.css'
 
 /**
  * Renders the table search bar
@@ -15,7 +15,7 @@ import search from '../../assets/images/lens.svg';
   };
 
   return (
-    <form onChange={handleInputChange}>
+    <form onChange={handleInputChange} className='search'>
     <InputField
         input='search'
         type='search'

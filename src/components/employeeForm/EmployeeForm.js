@@ -57,7 +57,9 @@ export const EmployeeForm = modalProps => {
    
 return (
       <form onSubmit={handleSubmit}>
+          <h2 className='title'>CREATE NEW EMPLOYEE</h2>
         <div className='formWrapper'>
+          
           <InputField
             label="First Name"
             type="text"
@@ -138,6 +140,7 @@ return (
         </div>
   
         <button
+        className='button'
           type="submit"
           >
           Save

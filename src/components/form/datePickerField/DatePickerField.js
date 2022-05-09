@@ -1,5 +1,5 @@
 import * as React from 'react';
-
+import { Label } from '../Label/Label';
 
 
 export default function BasicDatePicker(props) {
@@ -7,11 +7,12 @@ export default function BasicDatePicker(props) {
 
   return (
    
-    <div >
-        <label>{props.label}</label>
+    <div className='input-wrapper'>
+        <Label >{props.label}</Label>
          <input 
         type={props.type}
-         
+         id={props.id}
+         name={props.name}
         onChange={props.onChange}
          ></input>
     </div>

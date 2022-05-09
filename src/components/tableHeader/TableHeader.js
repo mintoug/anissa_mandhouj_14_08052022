@@ -61,7 +61,8 @@ export const TableHeader = props => {
         {headCells.map(headCell => (
           <TableCell
             key={headCell.id}
-            sortDirection={orderBy === headCell.id ? order : false}>
+            sortDirection={orderBy === headCell.id ? order : false}
+           style={{background: 'rgba(212, 212, 248, 0.20)', color:'rgb(68, 68, 146) '}}>
             <TableSortLabel
               active={orderBy === headCell.id}
               direction={orderBy === headCell.id ? order : 'asc'}

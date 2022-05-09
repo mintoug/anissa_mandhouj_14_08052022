@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,33 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+input{
+  background-color: rgba(212, 212, 248, 0.20);
+  border-radius: 5px;
+  margin-left: 10px;
+  border: 1px solid rgb(155, 155, 229);
+  outline: none;
+  height: 30px;
+}
+label{
+  font-style: normal;
+}
+h2{
+  color: rgb(68, 68, 146);
+}
+.title{
+  margin: 20px; 
+  
+}
+option, select{
+  outline: none;
+  background: rgba(212, 212, 248, 0.20);
+  border: 1px solid rgb(155, 155, 229);
+  
+}
+select{
+  height: 30px;
+  border-radius: 5px 5px 0 0;
+
 }

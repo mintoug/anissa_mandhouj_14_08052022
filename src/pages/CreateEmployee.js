@@ -15,6 +15,7 @@ export const CreateEmployee = () => {
           text="Employee has been created!"
         
         />
+      
         <EmployeeForm setModalIsOpen={setModalIsOpen} />
         </>
     );
