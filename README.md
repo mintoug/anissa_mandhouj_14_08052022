@@ -1,6 +1,6 @@
-[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) [![forthebadge](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://forthebadge.com)  [![forthebadge]
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) [![forthebadge](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://forthebadge.com) 
 
-# projet : 14 . Faire passser une librairie j-query vers React
+# projet : 14 . Faire passser une librairie jQuery vers React
 
 ## the dependencies
 -  "react": "^17.0.2",
@@ -21,6 +21,11 @@
 
 # The lighthouse reports
 
-## for the version with jquery
+## for the version with jQuery
+- page 1 : https://github.com/mintoug/anissa_mandhouj_14_08052022/blob/main/lighthouse-reports/hrnet_jquery_page1.pdf
 
+- page 2 : https://github.com/mintoug/anissa_mandhouj_14_08052022/blob/main/lighthouse-reports/hrnet_jquery_page2.pdf
 ## for the version with React
+ - page 1 : https://github.com/mintoug/anissa_mandhouj_14_08052022/blob/main/lighthouse-reports/hrnet_react_page1.pdf
+
+ - pga 2 : https://github.com/mintoug/anissa_mandhouj_14_08052022/blob/main/lighthouse-reports/hrnet_react_page2.pdf
