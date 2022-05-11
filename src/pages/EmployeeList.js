@@ -1,14 +1,13 @@
-import { EmployeeTable } from '../components/employeeTable/EmployeeTable';
+import React, {Suspense} from 'react';
 
 
-/**
- * Render Employee List Page
- * @returns {JSX}
- */
+const EmployeeTable = React.lazy(() => import('../components/employeeTable/EmployeeTable'));
+
 export const EmployeeList = () => {
   return (
 
-      <EmployeeTable />
-    
+<Suspense fallback={<div>LOADING ...</div>}>
+      <EmployeeTable /> 
+</Suspense> 
   );
 };

@@ -22,7 +22,7 @@ import './SearchField.css'
         placeholder='search' 
         
         />
-      <img src={search} alt="" />
+      <img src={search} alt="search" />
     </form>
   );
 };

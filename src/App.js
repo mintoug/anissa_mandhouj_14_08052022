@@ -1,3 +1,4 @@
+import React from 'react';
 import  {Error}  from './pages/Error';
 import  {CreateEmployee } from './pages/CreateEmployee';
 import {EmployeeList}  from './pages/EmployeeList';
@@ -10,10 +11,9 @@ import {
 import { EmployeeProvider } from './context/employeeContext';
 
 
-
 function App() {
   return (
-  <EmployeeProvider> 
+  <EmployeeProvider>
    <BrowserRouter>
    <Header />
     <Routes>
@@ -21,7 +21,7 @@ function App() {
       <Route path="/" index element={<CreateEmployee />} />
       <Route path="/employee-list" element={<EmployeeList />} />
     </Routes>
-    </BrowserRouter> 
+    </BrowserRouter>
   </EmployeeProvider>  
   );
 }

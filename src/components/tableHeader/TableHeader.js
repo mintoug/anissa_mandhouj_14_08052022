@@ -1,9 +1,10 @@
-import TableHead from '@mui/material/TableHead';
 import { visuallyHidden } from '@mui/utils';
 import TableSortLabel from '@mui/material/TableSortLabel';
 import TableRow from '@mui/material/TableRow';
 import Box from '@mui/material/Box';
 import TableCell from '@mui/material/TableCell';
+import TableHead  from '@mui/material/TableHead';
+
 
 const headCells = [
   {
@@ -49,16 +50,19 @@ const headCells = [
  * @param {object} props
  * @returns
  */
-export const TableHeader = props => {
+export default function TableHeader(props ){
   const { order, orderBy, onRequestSort } = props;
   const createSortHandler = property => event => {
     onRequestSort(event, property);
   };
 
   return (
+
     <TableHead>
+   
       <TableRow>
         {headCells.map(headCell => (
+         
           <TableCell
             key={headCell.id}
             sortDirection={orderBy === headCell.id ? order : false}
@@ -77,6 +81,8 @@ export const TableHeader = props => {
           </TableCell>
         ))}
       </TableRow>
+      
     </TableHead>
+    
   );
 };

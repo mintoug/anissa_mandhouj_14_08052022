@@ -1,6 +1,6 @@
-import React, { useState, useContext} from 'react';
+import{ useState, useContext} from 'react';
 import { getComparator } from '../sortTable/SortTable';
-import {TableHeader} from '../tableHeader/TableHeader';
+import TableHeader from '../tableHeader/TableHeader';
 import  SearchBar  from '../searchField/SearchField'
 
 import { EmployeeContext } from '../../context/employeeContext';
@@ -22,7 +22,7 @@ const dayjs = require('dayjs');
  * Component that uses material ui
  * @returns {JSX}
  */
-export const EmployeeTable = () => {
+export default function EmployeeTable  () {
    const {employees} = useContext(EmployeeContext);
 
   
@@ -111,12 +111,14 @@ export const EmployeeTable = () => {
       <SearchBar requestSearch={requestSearch}  />
       <TableContainer>
         <Table sx={{ minWidth: 750 }} aria-labelledby="tableTitle">
+        
           <TableHeader
             order={order}
             orderBy={orderBy}
             onRequestSort={handleRequestSort}
             rowCount={rows.length}
           />
+          
           <TableBody>
             {rows
               .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
