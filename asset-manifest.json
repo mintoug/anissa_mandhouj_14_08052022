@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/hrnetdeploy/static/css/main.d9ee07f3.css",
+    "main.js": "/hrnetdeploy/static/js/main.d18db864.js",
+    "static/css/921.bb737df0.chunk.css": "/hrnetdeploy/static/css/921.bb737df0.chunk.css",
+    "static/js/921.0a931621.chunk.js": "/hrnetdeploy/static/js/921.0a931621.chunk.js",
+    "static/js/271.673d7ba8.chunk.js": "/hrnetdeploy/static/js/271.673d7ba8.chunk.js",
+    "index.html": "/hrnetdeploy/index.html",
+    "static/media/lens.svg": "/hrnetdeploy/static/media/lens.d5a90ae7b94c4c6cea11a84271a47a4d.svg",
+    "main.d9ee07f3.css.map": "/hrnetdeploy/static/css/main.d9ee07f3.css.map",
+    "main.d18db864.js.map": "/hrnetdeploy/static/js/main.d18db864.js.map",
+    "921.bb737df0.chunk.css.map": "/hrnetdeploy/static/css/921.bb737df0.chunk.css.map",
+    "921.0a931621.chunk.js.map": "/hrnetdeploy/static/js/921.0a931621.chunk.js.map",
+    "271.673d7ba8.chunk.js.map": "/hrnetdeploy/static/js/271.673d7ba8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9ee07f3.css",
+    "static/js/main.d18db864.js"
+  ]
+}

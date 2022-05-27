@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/921.bb737df0.chunk.css","mappings":"AAAA,QACI,YAAa,CACb,WAAY,CACZ,gBACJ,CACA,IAEI,WAAY,CADZ,UAEJ","sources":["components/searchField/SearchField.css"],"sourcesContent":[".search{\r\n    display: flex;\r\n    float: right;\r\n    margin: 30px 20px;\r\n}\r\nimg{\r\n    width: 20px;\r\n    height: 20px;\r\n}"],"names":[],"sourceRoot":""}
